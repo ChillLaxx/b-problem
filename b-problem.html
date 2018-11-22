@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>蓝牙问题</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./b-problem.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h4>！important）关于手机系统问题，安卓手机请使用安卓7.0以上系统；
+                <br>苹果手机请使用IOS 9.0以上系统；
+                </h4>
+        </div>
+        <div class="content">
+            <div class="text">
+                <div class="text1">
+                    <h4>1、	蓝牙为什么连接不上(搜索不到？)？</h4>
+                    <h5>答：请查看手机是否有打开蓝牙、定位，首次打开APP时 请同意所有选项，以确保最佳体验。（如以上都无法连接，请拔掉电池再放入电池重新启动锁）</h5>
+                </div>
+                <div class="text2">
+                    <h4>2、	为什么蓝牙绑定失败？入网失败？</h4>
+                    <h5>答： 请按照手机和锁的指引来操作蓝牙，如遇到设备已被绑定状态，请根据提示重置蓝牙后再连接绑定蓝牙；
+                        如以上操作还无法正常连接，则让客户下载一个任意的蓝牙助手，找到对应的蓝牙设备，查看蓝牙的一些信息，拿到截图反馈到研发，如果通过蓝牙助手连接蓝牙无法成功获取蓝牙信息，说明此模块已不能正常使用，需要更换模块。
+                        </h5>
+                </div>
+                <div class="text3">
+                    <h4>3、	为什么开门时间不正确？</h4>
+                    <h5>答：①开门时间不正确，一般是时间同步的问题，首先让客户同步时间。因为本地的时间经过一段时间的使用之后，会有偏差，建议一个月同步一次时间；
+                        ②锁断电的时间过长也会导致锁的时间重置到最初的时间，需要重新同步时间；
+                        ③如果同步时间后，再次开门，开门记录还是错误的时间，则需重新绑定蓝牙，再同步时间！
+                        如以上无法解决：
+                        ④安卓则在对应的存储文件里，找到kaadas/kaadaslog文件，再反馈到研发。
+                        ⑤IOS直接反馈到研发，请确保系统版本9.0以上！安卓7.0以上！
+                        </h5>
+                </div>
+                <div class="text4">
+                    <h4>4、	为什么开门记录无法获取？只能获取到APP开门记录？</h4>
+                    <h5>答：①请查看蓝牙连接是否断开，蓝牙在断开的状况下是无法获取到开锁记录的！
+                            ②可能还是时间同步的问题，部分模块时间未同步也会导致无法获取记录，请参照问题3；
+                            ③如果第一次获取记录没有成功，请多试几次，因为环境的不同，可能会拿到的记录不完整！
+                            ④APP开门的记录是存在云端，而指纹、密码、卡片是存在锁里面，所以如果发现除了APP开锁之外的记录无法获取时，请同步时间，并重置蓝牙，重新绑定蓝牙。
+                            </h5>
+            </div>
+                <div class="text5">
+                    <h4>5、	为什么短信无法获取（发送）？</h4>
+                    <h5>答：①查看手机网络是否正常，请使用网络状况良好的网络。
+                            ②手机注册的帐号未收到，查看短信是否被手机过滤拦截。
+                            ③邮件注册的帐号未收到，查看邮件是否被放置垃圾箱，黑名单，回收站等。
+                            ④如以上都无法解决，可能是短信系统出了问题，反馈到研发。
+                            </h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
