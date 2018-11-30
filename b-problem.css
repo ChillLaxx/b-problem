@@ -34,7 +34,7 @@
 }
 
 .content .text{
-    position: relative;
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 18px;
     height: 18px;
@@ -55,18 +55,24 @@
 }
 
 .content .text2 .gif1{
-    margin-left: 6%;
     margin-bottom: 10px;
 }
 .content .text2 .gif1 img{
+    position: relative;
     border-radius: 10px;
     width: 250px;
     height: 450px;
+    left:50%;
+    margin-left: -125px;
 }
 .content  .text6 .gif2{
+    left:50%;
     margin-bottom: 10px;
-   margin-left: 6%;
 }
 .content  .text6 .gif2 img{
+    position: relative;
+    left:50%;
+    margin-bottom: 10px;
+    transform: translate(-50%,0);
     border-radius: 10px;
 }
