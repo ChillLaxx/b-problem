@@ -44,6 +44,7 @@
     line-height: 20px;
 }
 .content .text .text1,.text2,.text3,.text4,.text5,.text6{
+    position: relative;
     border: 2px solid #ddd;
     border-radius: 15px;
     margin-bottom: 2px;
@@ -57,14 +58,17 @@
 .content .text2 .gif1{
     margin-bottom: 10px;
 }
-.content .text2 .gif1 img{
-    position: relative;
-    border-radius: 10px;
+.content .text2 .gif1 .apple,.android{
+    display: inline-block;
+    margin-left: 10px;
+}
+.content .text2 .gif1 .apple img,.android img{
     width: 250px;
     height: 450px;
-    left:50%;
-    margin-left: -125px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+
 .content  .text6 .gif2{
     left:50%;
     margin-bottom: 10px;
